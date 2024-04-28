@@ -1,0 +1,153 @@
+.section-container {
+    display: flex;
+    padding: 50px;
+  }
+  
+  .text-container {
+    display: inline-block;
+    border: 2rem; 
+    padding-left: 30px;
+    padding-top: 130px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+/* BUILDING DETAILS */
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.building__pic-container {
+    display: flex;
+    position: relative;
+    top: -150px;
+}
+
+.details-container {
+    display: inline-block;
+    border: 2rem; 
+    margin-left: 320px;
+    padding-top: 30px;
+    border-radius: 12px;
+}
+
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: grid; /* Changed to grid */
+    grid-template-columns: repeat(2, 1fr); /* Added */
+    gap: 20px; /* Added */
+}
+
+.hours,
+.location {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hours h2,
+.location h2 {
+    color: #333;
+    margin-top: 0; /* Added to remove default margin */
+}
+
+.hours ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Added to remove default margin */
+}
+
+.hours ul li {
+    margin-bottom: 10px;
+}
+
+.location p {
+    margin: 5px 0;
+    margin-top: 0; /* Added to remove default margin */
+}
+
+/* Added for grid alignment */
+.hours {
+    grid-column: 1 / 2; /* Align to first column */
+}
+
+.location {
+    grid-column: 2 / 3; /* Align to second column */
+}
+
+.Information {
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #333;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+
+.contact-label {
+    font-weight: bold;
+}
+
+.contact-info p {
+    margin: 5px 0; 
+}
+
+footer {
+    height: 26vh;
+    margin: 0.1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+nav, 
+.nav-links {
+    display:flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem; 
+    text-decoration-color: rgb(181,181,181);
+}
