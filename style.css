@@ -160,9 +160,3 @@ a:hover {
     text-underline-offset: 1rem; 
     text-decoration-color: rgb(181,181,181);
 }
-
-.line {
-    border-top: 1px solid #ccc;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
