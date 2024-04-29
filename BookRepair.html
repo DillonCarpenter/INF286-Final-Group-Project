@@ -4,47 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Repair</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body class="bg-secondary bg-gradient">
     <script src="bootstrap.bundle.js"></script>
-    <div class="logo">The Ohio Book Store</div>
+    <nav class="navbar navbar-expand-sm bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Index.html">
+            <img src="image/Logo.png" height="50" width="50" alt="">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <span class="navbar-text fs-4 fw-bold text-center">
+              Book Repair
+            </span>
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Book Store
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="AboutBookStore.html">About the Book Store</a></li>
+                  <li><a class="dropdown-item" href="SalesandFeaturedItems.html">Featured Items</a></li>
+                  <li><a class="dropdown-item" href="Publications.html">Publications</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Book Repair and Bindery
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="AboutRepairBindery.html">About Repair and Bindery</a></li>
+                  <li><a class="dropdown-item" href="BookRepair.html">Book Repair</a></li>
+                  <li><a class="dropdown-item" href="restoration.html">Restoration</a></li>
+                  <li><a class="dropdown-item" href="PaperConservationandRepair.html">Paper Conservation and Repair</a></li>
+                  <li><a class="dropdown-item" href="CustomBoxes.html">Custom Boxes</a></li>
+                  <li><a class="dropdown-item" href="personalization.html">Personalization</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div class="container bg-white">
         <div class="row">
-            <div class="col">
-            </div>
-            <div class="col">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Book Repair
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="Index.html">Home</a></li>
-                        <li><a class="dropdown-item" href="AboutBookStore.html">About</a></li>
-                        <li><a class="dropdown-item" href="restoration.html">Restoration</a></li>
-                        <li><a class="dropdown-item" href="Paper Conservation and Repair.html">Paper Conservation/Repair</a></li>
-                        <li><a class="dropdown-item" href="CustomBoxes.html">Custom Boxes</a></li>
-                        <li><a class="dropdown-item" href="personalization.html">Personalization</a></li>
-                        <li><a class="dropdown-item" href="Contact.html">Contact</a></li>
-                        <li><a class="dropdown-item" href="#">Directions</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h2>Book Repair</h2>
-            </div>
-        
-        <div class="row-2" col="">
-            <div class="col">
+            <div class="col-12">
                 <img src="./image/10.png" alt="image">
             </div>
-            <div class="col">
+            <div class="col-12">
                  <p>We perform all kinds of book repair, from simple spine repair to full binding replacements. We specialize in preserving the period look and feel of books, but are aware of your budgetary needs and offer a wide variety of options to suit every taste and budget. (Sewing machine for binding shown at left, selection of marbled end-papers below.)</p>
             </div>
-            <div class="col">
+            <div class="col-12">
                 <img src="./image/11.png" alt="image">
                 <p>Below is an example of a journal showing the book before the repair and after. The style of the original 3/4 leather binding has been maintained and in the same color combination as the original.</p>
                 <img src="./image/12.png" alt="image">
@@ -54,13 +68,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="row">
-                <footer class="col-12 bg-primary">
-                    <p class="text-center">Copyright 2012 © Ohio Book Store</p>
-                    <p class="text-center">Contact the Webmaster with any questions</p>
-                    <p class="text-center">726 Main Street, Cincinnati, OH 45202, (513) 621-5142</p>
-                </footer>
-            </div>
+            <footer class="col-12 bg-primary">
+                <p class="text-center">Copyright 2012 © Ohio Book Store</p>
+                <p class="text-center">Contact the Webmaster with any questions</p>
+                <p class="text-center">726 Main Street, Cincinnati, OH 45202, (513) 621-5142</p>
+            </footer>
         </div>
     </div>
 </body>
