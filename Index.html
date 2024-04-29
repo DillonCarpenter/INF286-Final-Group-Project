@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body class="bg-secondary">
+<body class="">
   <nav class="navbar navbar-expand-sm bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="Index.html">
@@ -21,12 +21,25 @@
             The Title
           </span>
           <ul class="navbar-nav ms-auto me-5">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="AboutBookStore.html">Book Store</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Book Store
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="AboutBookStore.html">About the Book Store</a></li>
+                <li><a class="dropdown-item" href="SalesandFeaturedItems.html">Featured Items</a></li>
+                <li><a class="dropdown-item" href="Publications.html">Publications</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="book repair.html">Book Repair</a>
-            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Book Repair and Bindery
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="AboutRepairBindery.html">About Repair and Bindery</a></li>
+                <li><a class="dropdown-item" href="BookRepair.html">Book Repair</a></li>
+                <li><a class="dropdown-item" href="restoration.html">Restoration</a></li>
+              </ul>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Directions</a>
             </li>
@@ -100,17 +113,6 @@
         <span class="contact-label">General Email Inquiries:</span> <a href="mailto:ohiobook@fuse.net">ohiobook@fuse.net</a>
     </div>
 </div>
-<footer>
-  <nav>
-      <div class="nav-links-container">
-          <ul class="nav-links">
-              <li><a href="AboutBookStore.html">Book Store</a></li>
-              <li><a href="#">Book Repair</a></li>
-              <li><a href="#">Directions</a></li>
-              <li><a href="Contact.html">Contact</a></li>
-          </ul>
-      </div>
-  </nav>
   <footer class="bg-primary">
   <p>Copyright 2012 © Ohio Book Store</p>
   <p>Contact the Webmaster with any questions</p>
